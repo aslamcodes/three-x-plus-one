@@ -18,7 +18,7 @@ const Reference = () => {
           ></iframe>
         </div>
       </div>
-      <div>
+      <div className={styles.articles}>
         <h3>Articles & Links</h3>
         <a
           href="https://en.m.wikipedia.org/wiki/Collatz_conjecture"
