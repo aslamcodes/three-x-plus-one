@@ -11,9 +11,15 @@ const Intro = () => {
           "The 3x+1 problem, also known as the Collatz problem, the Syracuse
           problem, Kakutani's problem, Hasse's algorithm, and Ulam's problem,
           concerns the behavior of the iterates of the function which takes odd
-          integers n to 3n+1 and even integers n to n/2. The 3x+1 Conjecture
-          asserts that, starting from any positive integer n, repeated iteration
-          of this function eventually produces the value 1."
+          integers n to 3n+1 and even integers n to n/2.&nbsp;
+          <strong>
+            <u>
+              The 3x+1 Conjecture asserts that, starting from any positive
+              integer n, repeated iteration of this function eventually produces
+              the value 1.
+            </u>
+          </strong>
+          "
         </em>
       </div>
     </>

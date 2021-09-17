@@ -3,15 +3,15 @@ export default function (n) {
   if (!n) {
     return [];
   }
-  let x = n;
+
   let data = [{ x: n }];
-  while (x !== 1) {
-    if (x % 2 === 1) {
-      x = x * 3 + 1;
+  while (n !== 1) {
+    if (n % 2 === 1) {
+      n = n * 3 + 1;
     } else {
-      x = x / 2;
+      n = n / 2;
     }
-    data.push({ x: x });
+    data.push({ x: n });
   }
   return data;
 }

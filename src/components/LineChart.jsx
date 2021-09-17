@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import threexplus1 from "../conjucture/threexplus1";
 import styles from "./LineChart.module.css";
 import { LineChart, Line, XAxis, Tooltip } from "recharts";
-import { GrAdd } from "react-icons/gr";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 const LineGraph = () => {
   const [value, setValue] = useState(7);
