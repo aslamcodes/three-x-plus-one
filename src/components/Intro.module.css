@@ -1,0 +1,17 @@
+.pe {
+  position: relative;
+}
+.intro {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 60vw;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    flex-direction: column;
+    max-width: 90vw;
+  }
+}

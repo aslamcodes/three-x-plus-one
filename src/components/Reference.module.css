@@ -1,0 +1,35 @@
+.ref {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid white;
+  justify-content: space-around;
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 30px 10px;
+  min-width: 70vw;
+  gap: 30px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ref a em {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
