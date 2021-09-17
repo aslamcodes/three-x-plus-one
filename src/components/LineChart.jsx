@@ -23,14 +23,14 @@ const LineGraph = () => {
           <button
             disabled={value < 1}
             onClick={(e) => {
-              setValue((prev) => prev - +1);
+              setValue((prev) => +prev - +1);
             }}
           >
             <AiOutlineMinus />
           </button>
           <button
             onClick={(e) => {
-              setValue((prev) => prev + 1);
+              setValue((prev) => +prev + +1);
             }}
           >
             <AiOutlinePlus />
